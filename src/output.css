@@ -588,40 +588,36 @@ video {
   }
 }
 
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-48 {
-  margin-top: 12rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-11 {
-  margin-top: 2.75rem;
-}
-
-.mt-9 {
-  margin-top: 2.25rem;
+.relative {
+  position: relative;
 }
 
 .ml-3 {
   margin-left: 0.75rem;
 }
 
+.mr-0 {
+  margin-right: 0px;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
 .inline-block {
@@ -652,45 +648,8 @@ video {
   align-items: center;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.rounded-e-3xl {
-  border-start-end-radius: 1.5rem;
-  border-end-end-radius: 1.5rem;
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity, 1));
-}
-
-.bg-transparent {
-  background-color: transparent;
-}
-
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
 }
 
 .bg-blue-950 {
@@ -698,56 +657,14 @@ video {
   background-color: rgb(23 37 84 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('/img/hero-pattern.svg');
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'ima\'\)\] {
-  background-image: url('ima');
-}
-
-.bg-\[url\(\'images\'\)\] {
-  background-image: url('images');
-}
-
-.bg-\[url\(\'I\'\)\] {
-  background-image: url('I');
-}
-
-.bg-\[url\(\'Images\/\'\)\] {
-  background-image: url('Images/');
-}
-
-.bg-\[url\(\'\/\/hero-pattern\.svg\'\)\] {
-  background-image: url('//hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/Images\/hero-pattern\.svg\'\)\] {
-  background-image: url('/Images/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/Images\/\'\)\] {
-  background-image: url('/Images/');
-}
-
-.bg-\[url\(\'\/Images\/b\'\)\] {
-  background-image: url('/Images/b');
-}
-
-.bg-\[url\(\'\/Images\/ba\'\)\] {
-  background-image: url('/Images/ba');
-}
-
-.bg-\[url\(\'\/Images\/banner-\'\)\] {
-  background-image: url('/Images/banner-');
-}
-
-.bg-\[url\(\'\/Images\/banner-bg\'\)\] {
-  background-image: url('/Images/banner-bg');
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'https\:\/\/templatemo\.com\/templates\/templatemo_589_lugx_gaming\/assets\/images\/banner-bg\.jpg\'\)\] {
@@ -762,16 +679,6 @@ video {
   background-position: center;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -780,6 +687,16 @@ video {
 .px-28 {
   padding-left: 7rem;
   padding-right: 7rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-8 {
@@ -791,55 +708,25 @@ video {
   text-align: center;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.leading-normal {
-  line-height: 1.5;
-}
-
-.leading-none {
-  line-height: 1;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
+.font-semibold {
+  font-weight: 600;
 }
 
 .leading-8 {
   line-height: 2rem;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .tracking-wide {
